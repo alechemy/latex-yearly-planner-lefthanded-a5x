@@ -1,7 +1,9 @@
-calafterschedule: true
-addlasthalfhour: true
+ampmtime: true
+dotted: false
+calafterschedule: false
+addlasthalfhour: false
 
 layout:
   numbers:
-    dailybottomhour: 7
-    dailytophour: 18
+    dailybottomhour: 6
+    dailytophour: 16

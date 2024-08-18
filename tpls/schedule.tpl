@@ -6,6 +6,7 @@
 {{- else -}}
 {\small {{- $hour.FormatHour $.Cfg.AMPMTime -}} }
 {{- end}}
+\myLineLightGray\vskip\myLenLineHeightButLine
 \myLineLightGray\vskip\myLenLineHeightButLine\myLineGray
 {{- end}}
 {{if $.Cfg.AddLastHalfHour}}\vskip\myLenLineHeightButLine\vbox to 0pt{\myLineLightGray}{{end}}
